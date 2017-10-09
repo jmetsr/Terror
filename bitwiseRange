@@ -1,0 +1,3 @@
+function [amt] = bitwiseRange(vector, start, end)
+	
+end
