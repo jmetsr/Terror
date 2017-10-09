@@ -1,0 +1,6 @@
+<ul>
+<% @terror_attacks.each do |attack| %>
+	<% ruby_date = 2415019+ attack.date %>
+	<li><%= Date.jd(ruby_date) %></li>
+<% end %>
+</ul>

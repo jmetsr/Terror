@@ -1,0 +1,11 @@
+
+<form action="<%= terror_attacks_url %>" method="post" >
+	<input type="hidden" name="_method" value="post">
+	date (excel format): <input 
+		type="text" 
+		name="terror_attack[date]"
+		id="terror_attack_date"
+		value="<%= @terror_attack.date %>" >
+	<br>
+	<input type="submit" value="submit">
+</form>
